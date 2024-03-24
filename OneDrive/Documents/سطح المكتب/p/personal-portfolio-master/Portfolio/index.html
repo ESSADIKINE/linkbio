@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="icon" href="img/icon.png" type="image/icon type">
+    <script src="https://kit.fontawesome.com/7c6aee25da.js" crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="js/app.js" defer></script>
+    <link rel="stylesheet" href="css/index.css">
+    <title>Anass Essadikine Portfolio</title>
+</head>
+<body> 
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" id="brand" href="#home"><i class="fa-solid fa-code text-white"></i> Anass Essadikine</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link text-white" href="#hero-section">Accuel</a>
+              <a class="nav-link text-white" href="#about-section">À propos</a>
+              <a class="nav-link text-white" href="#resume-section">Parcour</a>
+              <a class="nav-link text-white" href="#services-section">Compétences</a>
+              <a class="nav-link text-white" href="#projets-section">Projets</a>
+            </div>
+            <div class="contact-button">
+              <a class="btn" href="#contact">Contactez-Moi</a>
+            </div>
+            <div class="container2">
+              <button class="share-btn">
+                <i class="fa-regular fa-share-from-square"></i>
+              </button>
+              <div class="share-options">
+                  <p class="title">partager</p>
+                  <div class="social-media">
+                      <button  class="social-media-btn"><a href="https://www.facebook.com/sharer.php?u=https://anassessadikine.com"><i class="fab fa-facebook-f" style="color: #27dd95;"></i></a></button>
+                      <button class="social-media-btn"><a href="https://wa.me/?text=AnassEssadikine https://anassessadikine.com"><i class="fab fa-whatsapp" style="color: #27dd95;"></i></a></button>
+                      <button class="social-media-btn"><a href="https://www.linkedin.com/shareArticle?url=https://anassessadikine.com&title=AnassEssadikine"><i class="fa-brands fa-linkedin-in" style="color: #27dd95;"></i></button>
+                      <button class="social-media-btn"><a href="https://twitter.com/share?url=https://anassessadikine.com&text=AnassEssadikine"><i class="fa-brands fa-x-twitter" style="color: #27dd95;"></i></a></button>
+                  </div>
+                  <div class="link-container">
+                      <p class="link">https://anassessadikine.com</p>
+                  </div>
+              </div>
+              <div style="align-self: center;"><i class="bi bi-brightness-high-fill" id="toggleDark"></i></div>
+          </div>
+      </header>
+      </nav>
+      <section id="home">
+        <div id="hero-section"><i class="fa-solid fa-check" ></i></div>
+        <div class="container" id="background">
+          <div id="top" class="row main-row">
+            <div class="col-lg-8"><span class="no-change">
+                <p>Bonjour, je suis</p>
+                <p id="name">Anass <inline>Essadikine</inline></p> <br>
+                <p id="dev"><strong>Développeur web Full Stack</strong></p> <br>
+                <p>Mon site de portfolio pour montrer ce que je fais <br>et un résumé de ce que j'ai fait.</p>
+                <a class="btn" href="#projets-section">Mon Portfolio</a>
+                <a class="btn2" download href="pdf/MonCV.pdf" target="_blank">Téléchargez CV <i class="fa-solid fa-download" style="color: #ffffff; "></i></a>
+            </span></div>
+            <div class="col-lg-4">
+              <img src="img/develop.png" class="img-fluid" alt="Développeur">
+            </div>
+          </div>
+       </div>
+      </section>
+    <section id="about">
+      <div><i class="fa-solid fa-check" id="about-section"></i></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="img/image-bg.png" class="img-fluid" alt="my photo">
+          </div>
+          <div class="col-lg-8" id="details">
+            <p class="peach">Qui je suis</p>
+            <p class="me" >À propos de moi</p>
+            <p>Je suis Anass Essadikine, <inline>Développeur web Full Stack</inline> passionné par la création de solutions numériques innovantes. Ma formation solide inclut des cours en développement MERN chez Ark-x</p>
+            <p>Je développe des sites Web avec HTML, CSS et Javascript. J'ai <inline>des compétences</inline> dans l'utilisation de logiciels de visualisation de données comme <inline>Power BI</inline>. Je suis également compétent dans les langages backend comme <inline>JS (Node.js)</inline> and frameworks like <inline>Express.js</inline>.</p>
+            <p>En tant que personne intéressé et passionné par ce domaine, je m'efforce constamment d'obtenir des résultats optimaux dans chaque projet que j'entreprends.</p>
+          </div>
+        </div>
+     </div>
+    </section>
+    <section id="resume" class="resume">
+      <div><i class="fa-solid fa-check" id="resume-section"></i></div>
+      <div id="Whatido" style="padding-top: 30px !important;">
+        <p class="peach" >Ce que je fais</p>
+        <p class="me">Mon parcours</p>
+      </div>
+      <div class="container" style="text-align: -webkit-center;">
+          <div class="row" style="width: 90%;">
+              <div class="col-lg-6" data-aos="fade-up">
+                  <h3 class="resume-title">Éducatives</h3>
+              <div class="resume-item">
+                      <h4>Baccalauréat scientifique </h4>
+                      <h5>2018 - 2019</h5>
+                      <p><em>Lycée Ibnou khaldoun, Casablanca</em></p>
+                      <p>Option : Science physique</p>
+                  </div>
+                  <div class="resume-item">
+                      <h4>Diplôme d'étude universitaires en sciences et technique</h4>
+                      <h5>2019 - 2022</h5>
+                      <p><em>Faculté des sciences et techniques de Settat </em></p>
+                      <p><b>Option</b>: Mathématique, informatique, Physique(MIP)<br>
+                  <b>Les compétences acquises</b> : </p>
+                  <div style="display: ruby;">
+                  <p class="case">L'algorithme</p><p class="case">Langage C</p><p class="case">données en C</p><p class="case">PostgreSQL</p><p class="case">MySQL</p><p class="case">Analyse</p><p class="case">Algebre</p><p class="case">Probabilité</p><p class="case">Statistique</p><p class="case">Physique</p>
+                </div>
+                  </div>
+                  <div class="resume-item">
+                      <h4>Licence en science et technique </h4>
+                      <h5>2022 - 2023</h5>
+                      <p><em>Faculté des sciences et techniques de Settat</em></p>
+                      <p><b>Option</b> : System d'information et Trasformation digitale<br>
+                  <b>Les compétences acquises</b> : </p>
+                  <div style="display: ruby;">
+                    <p class="case">HTML & CSS</p><p class="case">JavaScript</p><p class="case">PHP</p><p class="case">Java</p><p class="case">SQL</p><p class="case">PLSQL</p><p class="case">UML & MERISE</p><p class="case">PowerBI</p><p class="case">Knime</p><p class="case">Marketing digital</p><p class="case">...</p>
+                  </div>  
+                  </div>
+                  <div class="resume-item"></div>
+              </div>
+              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                  <h3 class="resume-title">Expériences</h3>
+                  
+              <div class="resume-item">
+                      <h4>Data Analyst et Business Intelligence</h4>
+                      <h5>04/2023 - 06/2023</h5>
+                      <p><em>Stage PFE chez l'entreprise Dokumentive</em></p>
+                      <p>Stage de fin d'études chez DoKumentive, axé sur le domaine de la Business Intelligence (BI) et de l'analyse de données.</p>
+                      <div style="display: ruby;">
+                        <p class="case">PowerBI</p><p class="case">HTML</p><p class="case">CSS</p><p class="case">PostgreSQL</p>
+                      </div>  
+                  </div>
+                  <div class="resume-item">
+                      <h4>FREELANCE</h4>
+                      <h5>06/2023 - 01/2024</h5>
+                      <p><em>Projets WordPress indépendants</em></p>
+                      <p>Conception et développement d'applications Web innovantes et personnalisées en utilisant WordPress.</p>
+                      <div style="display: ruby;">
+                        <p class="case">WordPress</p><p class="case">HTML</p><p class="case">CSS</p><p class="case">PHP</p><p class="case">JavaScript</p><p class="case">WooCommerce</p>
+                      </div>  
+                  </div>
+                  <div class="resume-item">
+                      <h4>Développement MERN</h4>
+                      <h5>01/2024 - 06/2024</h5>
+                      <p><em>Stage operationnel chez ARK-X Talent Factory</em></p>
+                      <p>Stage opérationnel en tant que Développeur MERN au sein de l'ARK-X Talent Factory.</p>
+                      <div style="display: ruby;">
+                        <p class="case">HTML</p><p class="case">CSS</p><p class="case">ReactJS</p><p class="case">NodeJS</p><p class="case">ExpressJS</p><p class="case">MongoDB</p><p class="case">Tailwind</p><p class="case">Scrum Agile</p><p class="case">Git & github</p><p class="case">DOM</p>
+                      </div>  
+                  </div>
+          </div>
+      </div>
+  </section>
+    <section id="services">
+      <div><i class="fa-solid fa-check" id="services-section"></i></div>
+      <div id="Whatido">
+        <p class="peach">Ce que je fais</p>
+        <p class="me">Mes compétences</p>
+      </div>
+      <div class="logos">
+        <div class="logos-slide">
+          <img src="./logos/css.svg" title="CSS" />
+          <img src="./logos/html.svg" title="HTML" />
+          <img src="./logos/javascript.svg" title="JavaScript" />
+          <img src="./logos/mongodb.svg" title="MongoDB" />
+          <img src="./logos/mysql.svg" title="MySQL" />
+          <img src="./logos/postgresql.svg" title="PostgreSQL" />
+          <img src="./logos/nodejs.svg" title="Node.js" />
+          <img src="./logos/node.svg" title="Express.js" />
+          <img src="./logos/php.svg" title="PHP" />
+          <img src="./logos/tailwind.svg" title="Tailwind CSS" />
+          <img src="./logos/bootstrap.svg" title="Bootstrap" />
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body">
+                <i class="fa-solid fa-laptop-code mb-5 title-logo "></i>
+                <p class="card-title fs-3">Développement Front-End</p><br>
+                <p class="card-text">J'utilise diverses technologies web pour développer des sites internet attractifs et responsive. Ces facteurs garantissent une expérience utilisateur satisfaisante lorsque l'utilisateur interagit avec lui.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body">
+                <i class="fa-solid fa-server mb-5 title-logo"></i>
+                <p class="card-title fs-3">Développement back-end</p><br>
+                <p class="card-text">Je crée des produits pour le serveur d'un site Web. Cela inclut la logique, les bases de données, les API, entre autres, pour garantir la pleine fonctionnalité du site Web.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body" id="card-body">
+                <i class="fa-solid fa-database mb-5 title-logo"></i><i class=" "></i>
+                <p class="card-title fs-3">Base de données</p><br>
+                <p class="card-text">Je crée des sites web attrayants, réactifs et fonctionnels en utilisant diverses technologies et en assurant la sécurité des interactions avec les bases de données..</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="Whatido">
+      <p class="me">Outils supplémentaires</p>
+    </div>
+      <div class="logos2">
+        <div class="logos-slide2">
+          <img src="./logos/figma.svg" title="Figma" />
+          <img src="./logos/photoshop.svg" title="Photoshop" />
+          <img src="./logos/github.svg" title="GitHub" />
+          <img src="./logos/git.svg" title="Git" />
+          <img src="./logos/trello.svg" title="Trello" />
+          <img src="./logos/powerbi.svg" title="PowerBI" />
+          <img src="./logos/tableau.svg" title="Tableau" />
+          <img src="./logos/knime.png" title="Knime" />
+          <img src="./logos/wordpress.svg" title="WordPress" />
+          <img src="./logos/woocommerce.svg" title="WooCommerce" />
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div><i class="fa-solid fa-check" id="projets-section"></i></div>
+      <div id="done">
+        <p class="peach">Mes projets </p>
+        <p class="me">Mon portfolio</p>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 mb-5">
+            <div class="card h-100">
+              <img src="img/new-portfolio.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Conception du portfolio</h3><br>
+                <p class="card-text" style="margin: 0px !important;">Créer une page Web en utilisant HTML, CSS et JS Pour appliquer les compétences que vous avez acquises dans la création de pages Web en utilisant ces langages.</p>
+                <div class="View">
+                  <a href="https://github.com/ESSADIKINE/Portfolio" target="_blank"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://anassessadikine.com/" target="_blank"><i class="fa-solid fa-globe"></i></a>
+                </div>              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-5">
+            <div class="card h-100">
+              <img src="img/movie.png" class="card-img-top" alt="unfold screenshot">
+              <div class="card-body">
+                <h3 class="card-title">Applications de films</h3><br>
+                <p class="card-text" style="margin: 0px !important;">Créer une application Web pour afficher des films en utilisant HTML et CSS pour appliquer les acquisitions. L'application contient six pages, la page principale, les films, À propos, Contact et les prix, en plus des détails du film.</p>
+                <div class="View">
+                  <a href="https://github.com/ESSADIKINE/Movie-App" target="_blank"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://essadikine.github.io/Movie-App/index.html" target="_blank"><i class="fa-solid fa-globe"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-5">
+            <div class="card h-100 ">
+              <img src="img/passport.png" class="card-img-top" alt="quiz board">
+              <div class="card-body">
+                <h3 class="card-title">Système de login et de registre</h3><br>
+                <p class="card-text" style="margin: 0px !important;">Mini Application dynamique, créée avec ExpressJS et comprenant des fonctionnalités robustes telles que PassportJS et JWT pour une sécurité optimale. Avec une interface conviviale.</p>
+                <div class="View-center">
+                  <a href="https://github.com/ESSADIKINE/Login-Regster-passport" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-5">
+            <div class="card h-100 ">
+              <img src="img/linktree.png" class="card-img-top" alt="bus pay">
+              <div class="card-body">
+                <h3 class="card-title">Link bio</h3><br>
+                <p class="card-text" style="margin: 0px !important;">Un site Web dynamique avec lien bio, intégrant une vitrine de projets, un formulaire interactif, et un mode nuit, offrant une expérience utilisateur optimale et favorisant l'engagement social.</p>
+                <div class="View">
+                  <a href="https://github.com/ESSADIKINE/linkbio/tree/main" target="_blank"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://anassessadikine.com/linkbio" target="_blank"><i class="fa-solid fa-globe"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-5">
+            <div class="card h-100 ">
+              <img src="img/portfolio.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Site Web de portfolio</h3><br>
+                <p class="card-text" style="margin: 0px !important;">Mon propre site Internet contient toutes les données qui m'intéressent en détail, ainsi que ma formation, mes expériences, mes projets, mes certificats, etc. J'ai créé ce projet en utilisant Wordpress, HTML CSS et un peu de php.</p>
+                <div class="View-center">
+                  <a href="https://anass.website/" target="_blank"><i class="fa-solid fa-globe"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-5">
+            <div class="card h-100">
+              <img src="img/top10best.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Un site d'affiliation</h3><br>
+                <p class="card-text" style="margin: 0px !important;">Top10Best est un site d'affiliation qui classe les logiciels de 1 à 10, offrant des critiques détaillées pour aider les utilisateurs à choisir. Créé avec WordPress, HTML et CSS, il simplifie la recherche de logiciels.</p>
+                <div class="View-center">
+                  <a href="https://www.top10best.website/" target="_blank"><i class="fa-solid fa-globe"></i></a>
+                </div>              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div><i class="fa-solid fa-check" id="contact-section"></i></div>
+      <div class="contactme mt-5">
+        <p class="peach">Contactez moi</p>
+      </div>
+      <div class="container">
+        <form onsubmit="emailSend(); reset(); return false;" class="row">
+          <div class="col-lg-5 inner-form">
+            <p class="fs-3" style="border-radius: 40px; background-color: #fff; padding-left: 20px;"><i class="fa-solid fa-location-dot" style="color: #27dd95;"></i><a href="https://www.google.com/maps/place/Casablanca/@33.5724031,-7.6695653,12z/data=!3m1!4b1!4m6!3m5!1s0xda7cd4778aa113b:0xb06c1d84f310fd3!8m2!3d33.5731104!4d-7.5898434!16zL20vMDIyYl8?hl=fr&entry=ttu"> Casablanca, Maroc</a></p>
+            <p class="fs-3" style="border-radius: 40px; background-color: #fff; padding-left: 20px;"><i class="fa-solid fa-envelope-open" style="color: #27dd95;"></i> <a href = "mailto: contact@anassessadikine.com">contact@anassessadikine.com</a></p>
+            <p class="fs-3" style="border-radius: 40px; background-color: #fff; padding-left: 20px;"><i class="fa-solid fa-phone" style="color: #27dd95;"></i><a href="tel:+2120606632839">+212 606-632839</a></p>
+            <div class="main">
+              <div class="icon2 up">
+                <a href="#top" class="go-top ttt" data-go-top>
+                  <i class="fa-solid fa-arrow-up"></i>
+                  <span>Go to top</span>
+                </a>
+              </div>
+              <div class="icon2 lnk">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                  <span>Linkedin</span>
+              </div>
+              <div class="icon2 git">
+                  <i class="fa-brands fa-github"></i>
+                  <span>GitHub</span>
+              </div>
+              <div class="icon2 wt">
+                <i class="fa-brands fa-whatsapp"></i>
+                  <span>Whatsapp</span>
+              </div>
+          </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="col-12">
+              <label for="FullName" class="form-label"></label>
+              <input type="text" class="form-control" id="name1" placeholder="ex : anass essadikine" required>
+            </div>
+              <div class="row">
+                <div class="col-6">
+                  <label for="inputEmail" class="form-label"></label>
+                  <input type="email" class="form-control" id="email" placeholder="ex : anass@gmail.com" required>      
+                </div>
+                <div class="col-6">
+                  <label for="number" class="form-label"></label>
+                  <input type="tel" class="form-control" id="number" placeholder="ex : 0666666666" required>          
+                </div>
+              </div>
+            <div class="col-12">
+              <label for="Textarea1" class="form-label"></label>
+              <textarea class="form-control" id="message" rows="3" placeholder="ex : Hello"></textarea>            
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn">envoyer</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section>
+      <footer>
+        <p>© Copyright 2024. All Rights Reserved.</p>
+      </footer>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
