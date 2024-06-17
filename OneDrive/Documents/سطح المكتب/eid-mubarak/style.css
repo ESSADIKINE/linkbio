@@ -1,0 +1,41 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    color: #033e41;
+}
+
+.content {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    background: linear-gradient(to bottom, #cfbc8e 0%, #c77e2b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h3 {
+    color: #dba96b;
+    font-size: 40px;
+    text-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+}
+h4{
+    color: #8c6f2f;
+    font-size: 26px;
+    text-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.mt-20 {
+    margin-top: 200px;
+}
+
+.mt-14 {
+    margin-top: 140px;
+}
+
+.footer {
+    margin-top: 100px;
+}
